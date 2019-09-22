@@ -1,21 +1,13 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
-  margin: 0;
-}
-/*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
 
-h1 {
-    color: #000000;
-}
-
-#container
+.container
 {
     text-align: center;
 }
+
 .apple-pie {
     width: 900px;
     height: 510px;
@@ -49,12 +41,19 @@ h1 {
 }
 
 .recipe-ingredients {
+    font-size: 16px;
+    padding-top: 30px;
     width: 720px;
+    margin: auto;
+    text-align: left;
+}
+
+.recipe-ingredients ul {
+    padding-left: 0;
 }
 
 .recipe-ingredients ul li {
     list-style: none;
-    padding-left: 245px;
     text-align: justify;
 }
 
@@ -70,11 +69,11 @@ h1 {
 }
 
 .recipe-directions {
-    margin-left: 280px;
-}
-
-.recipe-directions h1 {
+    font-size: 16px;
     text-align: left;
+    margin: auto;
+    width: 720px;
+
 }
 
 .recipe-directions ul {
