@@ -7,32 +7,32 @@ console.log(`The navigator's name is ${hacker2}`);
 // Iteration 2: Conditionals
 if (hacker1.length > hacker2.length) {
   console.log(`The driver has the longest name, it has ${hacker1.length} characters`);
-} else if (hacker1.length < hacker2.length) { 
+} else if (hacker1.length < hacker2.length) {
   console.log(`Yo, navigator get the longest nanme, it has ${hacker2Length} characters`);
-  
+
 } else {
   console.log(`wow, you both got equally long names, ${hacker2.length} characters`);
 }
 
 // Iteration 3: Loops
 let driversCapitalizedWithSpaces = "";
-for (var i=0; i<hacker1.length; i++) {
+for (var i = 0; i < hacker1.length; i++) {
   driversCapitalizedWithSpaces += hacker1[i].toUpperCase() + " ";
 }
 console.log(driversCapitalizedWithSpaces);
 
 
 let navigatorsReversedOrder = "";
-for(let i = hacker2.length-1; i>=0; i--) {
-    navigatorsReversedOrder += hacker2[i];
+for (let i = hacker2.length - 1; i >= 0; i--) {
+  navigatorsReversedOrder += hacker2[i];
 }
 console.log(navigatorsReversedOrder);
 
-if(hacker1>hacker2){
+if (hacker1 > hacker2) {
   console.log('The driver\'s name goes first');
-}else if(hacker1<hacker2){
+} else if (hacker1 < hacker2) {
   console.log('Yo, the navigator goes first definitely');
-}else{
+} else {
   console.log('What?! You both got the same name?');
 }
 
@@ -42,10 +42,9 @@ let loremIpsumParagraph = "Lorem ipsum dolor sit amet, consectetur adipiscing el
 
 let words = loremIpsumParagraph.split(" ");
 let counter = 0;
-for (let i = 0; i<words.length; i++) {
-  if(words[i] === 'et'){
-     counter++;
+for (let i = 0; i < words.length; i++) {
+  if (words[i] === 'et') {
+    counter++;
   }
 }
 console.log(counter);
-
